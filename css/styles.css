@@ -1,0 +1,263 @@
+
+/*  media query */
+@media screen and (max-width: 480px) {
+    .caroImg {
+        height: 250px;
+    }
+    .carolText{
+        margin-top: -100px;
+    }
+}
+/* End of query */
+
+
+
+/*  media query */
+@media screen and (max-width: 590px) {
+    .caroImg {
+        height: 300px;
+    }
+    .carolText{
+        margin-top: -150px;
+    }
+}
+/* End of query */
+
+
+/*  media query */
+@media screen and (min-width: 600px) {
+    .caroImg {
+        height: 550px;
+    }
+    .carolText{
+        margin-top: -270px;
+    }
+}
+/* End of query */
+
+p, span, a, h1, h2, h3, h4, h5, h6{
+    color: black;
+} 
+.divmark{
+    min-height: 30px;
+}
+.carousel-caption p {
+    color: white;
+font-weight: normal;
+font-size: 16px;
+line-height: 148.69%;
+}
+.carousel-caption h5{
+color: white;
+font-weight: bold;
+font-size: 48px;
+line-height: 64px;
+}
+.btns{
+    border: 1px solid grey;
+    border-radius: 20px;
+    background-color: transparent;
+    color: white;
+    padding: 10px;
+}
+.aftcarol{
+    background-color: #9EC639;
+}
+.aftcarol span{
+    color: white;
+    font-size: 12px;
+    font-weight: bold;
+    font-family: Roboto;
+    font-style: normal;
+    line-height: 150.19%;
+}
+.aftcarol h2{
+    color: white;
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 150.19%;
+}
+.btnzz{
+    margin-top: 20px;
+    background-color: white;
+    color: #9EC639;
+    border-radius: 20px;
+    padding: 5px;
+    border: none;
+}
+.streamImg{
+    margin-top: 20px;
+    margin-right: 31px;
+    padding: 10px;
+    border-radius: 25px;
+    box-shadow: 3px 3px 3px 3px rgb(230, 230, 230);
+    margin-bottom: 20px;
+}
+.streamImg img{
+    height: 150px;
+}
+.streamImg h3{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: bold;
+font-size: 24px;
+line-height: 150.19%;
+}
+.streamImg span{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 150.19%;
+}
+.streamImg a{
+    outline: none;
+    text-decoration: none;
+}
+.whoWe{
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.whoWe img{
+    height: 350px;
+    width: 80%;
+}
+#whoWeimg{
+    height: 3px;
+    width: 35px;
+    margin-top: -50px;
+}
+#whoWeimgs{
+    height: 3px;
+    width: 35px;
+    margin-top: -50px;
+}
+.whoWe span{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 500;
+font-size: 18px;
+line-height: 24px;
+color: #9EC639;
+}
+.whoWe h2{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: 900;
+font-size: 35px;
+line-height: 64px;
+color: #000000;
+}
+.whoWe p{
+font-family: Red Hat Display;
+font-style: normal;
+font-weight: normal;
+font-size: 16px;
+line-height: 148.69%;
+color: #696969;
+}
+.pstrs{
+    font-family: Red Hat Display;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 148.69%;
+    color: #8BC33E;
+}
+#pstrz{ 
+    font-weight: bolder;  
+    font-weight: 1000;
+    font-size: 35px;
+    margin-top: -20px;
+    /* background: #FFFFFF; */
+}
+.Weimg{
+    height: 3px;
+    width: 35px;
+    margin-top: -50px;
+}
+.Weimgs{
+    height: 3px;
+    width: 35px;
+    margin-top: -50px;
+}
+.whoWeimg{
+    width: 300px;
+}
+.mainPic{
+    min-height: 600px;
+    background-image: url("/images/ureWelcome.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+.butn{
+    background-color: #8BC33E;
+    color: white;
+    border-radius: 10px;
+    font-size: 15px;
+}
+.childre{
+    margin: 10px;
+}
+.cutn{
+    position: relative;
+    background-color: #8BC33E;
+    color: white;
+    border-radius: 10px;
+    margin-top: -35px;
+    z-index: 100;
+    height: 40px;
+    width: 99%;
+    padding-top: 5px;
+}
+.mainPiczsz{
+    min-height: 600px;
+    background-image: url("/images/cith.png");
+    background-size: cover;
+    background-attachment: fixed;
+    margin-bottom: 60px;
+}
+.pxcts{    
+    font-family: Red Hat Display;
+    font-style: normal;
+    color: #8BC33E;
+}
+.card{
+    border-radius: 5px;
+    box-shadow: 2px 3px 3px rgb(214, 213, 213);
+}
+.card a{
+    color: #8BC33E;
+    text-decoration: none;
+    border:none
+}
+.testiss{
+    background-color: #9EC639;
+    margin-top: 20px;
+    margin-bottom: 30px;
+}
+.testBod{
+    background-color: white;
+    width: 100%;
+    min-height: 150px;
+    border-radius: 10px;
+    margin-top: -20px;
+}
+.testImg{
+    border-radius: 50%;
+    width: 60px;
+    height: 60px;
+    border:1px solid #9EC639;
+}
+.testBod p{
+    font-size: .8rem;
+    font-weight: lighter;
+    line-height: 20px;
+}
+.gallImg{
+    width: 100%;
+    height: 250px;
+}
