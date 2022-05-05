@@ -5,7 +5,7 @@
                 <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
-                        <img src="images/pstEdwin.png" class="d-block w-100 caroImg" alt="...">
+                        <img src="images/pstEdwin.png" class="img-fluid d-block w-100 caroImg" alt="...">
                         <center>
                             <div class="carousel-caption d-md-block">
                                 <h5 class="carolText">You are Welcome Here!</h5>
@@ -17,7 +17,7 @@
                         </center>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/5.jpg" class="d-block w-100 caroImg" alt="...">
+                        <img src="images/5.jpg" class="img-fluid d-block w-100 caroImg" alt="...">
                         <div class="carousel-caption d-md-block">
                             <h5 class="carolText">You are Welcome Here!</h5>
                             <p>we believe in the power of God's word to change lives and value the pratical application of his word to make a difference in who we are and what we do..</p>
@@ -27,7 +27,7 @@
                         </div>
                     </div>
                     <div class="carousel-item">
-                        <img src="images/about-plan.jpg" class="d-block w-100 caroImg" alt="...">
+                        <img src="images/about-plan.jpg" class="img-fluid d-block w-100 caroImg" alt="...">
                         <div class="carousel-caption d-md-block">
                             <h5 class="carolText">You are Welcome Here!</h5>
                             <p>we believe in the power of God's word to change lives and value the pratical application of his word to make a difference in who we are and what we do..</p>
@@ -100,10 +100,10 @@
     <!-- who we are div -->
     <div class="row divmark whoWe">
         <div class="col-1 divmark"></div>
-        <div class="col-4 divmark text-center">
-            <img src="images/Rectangle 6.png" alt="" class="abtUs">
+        <div class="col-md-4 divmark text-center">
+            <img src="images/Rectangle 6.png" alt="" class="img-fluid">
         </div>
-        <div class="col-6 divmark">
+        <div class="col-md-6 divmark">
             <span>About Us</span>
             <h2>Who We Are</h2>
             <span><img src="images/Rectangle 10.png" alt="" id="whoWeimg"> <img src="images/Rectangle 10.png" alt="" id="whoWeimgs"></span>
@@ -146,12 +146,12 @@
     <!-- You're welcome -->
     <div class="row divmark mainPic">
         <div class="col-md-6 offset-md-3 divmark text-center">
-            <p class="pstrs mt-4">WELCOME</p>
-            <h3 style="color:white">You are Welcome Here!</h3>
+            <h4 class="pstrs mt-4">WELCOME</h4>
+            <h3 style="color:black">You are Welcome Here!</h3>
             <p style="margin-top:20px">
                 <img src="images/Rectangle 10.png" alt="" class="Weimg"><img src="images/Rectangle 10.png" alt="" class="Weimgs">
             </p>
-            <p style="color:white">
+            <p style="color:black">
             House On The Rock is a vibrant, multi-ethnic church, with over 7,000 worshippers on Sunday mornings and several daughter churches spread over Africa and Europe.
             <br><br>
             We believe in the power of God's word to change lives and value the practical application of His word to make a difference in who we are and what we do.
@@ -192,11 +192,11 @@
     <div class="row divmark mainPiczsz mt-4">
         <div class="col-md-6 offset-md-3 divmark text-center">
             <p class="pstrs mt-4">The CITH System</p>
-            <h3 style="color:white">Church in the Home</h3>
+            <h3 style="color:black">Church in the Home</h3>
             <p style="margin-top:20px">
                 <img src="images/Rectangle 10.png" alt="" class="Weimg"><img src="images/Rectangle 10.png" alt="" class="Weimgs">
             </p>
-            <p style="color:white">
+            <p style="color:black">
                 The CITH system is the Church at the micro or cellular level
                 <br> <br> where everybody can be somebody. It is where a strong sense of <br> <br>
                 belonging is developed. It is the first line of defense. Where you <br> <br> are known by name and you know others by name. It is the family <br><br>
@@ -227,8 +227,8 @@
                                 <p><b>SOLUTION HOUR (PRAYER SERVICE)</b></p>
                                 <span style="color: grey; font-size: 0.9rem;"><img src="images/Union.png" alt=""> EVERY FRIDAY 5PM</span>
                             </div>
-                            <div class="col-12">
-                                <p style="margin:auto;padding-left:150px;">
+                            <div class="col-md-12">
+                                <p style="margin:auto;padding-left:50px;">
                                    <a href="#"><i>Read more</i></a>
                                 </p>
                             </div>
@@ -247,7 +247,7 @@
                                 <span style="color: grey; font-size: 0.9rem;"><img src="images/Union.png" alt=""> EVERY FRIDAY 5PM</span>
                             </div>
                             <div class="col-12">
-                                <p style="margin:auto;padding-left:150px;">
+                                <p style="margin:auto;padding-left:50px;">
                                    <a href="#"><i>Read more</i></a>
                                 </p>
                             </div>
@@ -257,7 +257,7 @@
             </div>
             <div class="col-md-3 divmark childre">
                 <div class="card">
-                    <img src="images/soluHR.png" class="card-img-top" alt="solution hour">
+                    <img src="images/soluHR.png" class="card-img-top img-fluid" alt="solution hour">
                     <div class="card-body">
                         <div class="row divmark">
                             <div class="col-4 divmark"><p class="pxcts"><b style="font-size: 30px;">23</b><br> FEB 2022</p></div>
@@ -266,7 +266,7 @@
                                 <span style="color: grey; font-size: 0.9rem;"><img src="images/Union.png" alt=""> EVERY FRIDAY 5PM</span>
                             </div>
                             <div class="col-12">
-                                <p style="margin:auto;padding-left:150px;">
+                                <p style="margin:auto;padding-left:50px;">
                                    <a href="#"><i>Read more</i></a>
                                 </p>
                             </div>
@@ -403,52 +403,31 @@
         </div>
        <div class="row divmark mb-4">
        <div class="col-3 divmark">
-            <img src="images/gallery/001.png" alt="" class="gallImg">
+            <img src="images/gallery/001.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/002.png" alt="" class="gallImg">
+            <img src="images/gallery/002.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/003.png" alt="" class="gallImg">
+            <img src="images/gallery/003.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/004.png" alt="" class="gallImg">
+            <img src="images/gallery/004.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/005.png" alt="" class="gallImg">
+            <img src="images/gallery/005.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/006.png" alt="" class="gallImg">
+            <img src="images/gallery/006.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/007.png" alt="" class="gallImg">
+            <img src="images/gallery/007.png" alt="" class="img-fluid">
         </div>
         <div class="col-3 divmark">
-            <img src="images/gallery/008.png" alt="" class="gallImg">
+            <img src="images/gallery/008.png" alt="" class="img-fluid">
         </div>
        </div>
     </div>
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
-<script src="js/styles.js"></script>
-</body>
-</html>
+<?php include "4578footersxy.php" ?>
